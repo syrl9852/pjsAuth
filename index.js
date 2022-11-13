@@ -49,8 +49,8 @@ server.get("/auth", async function(req, res, codea) {
 			.then(res => res.text())
 			.then(text => console.log(text))
 			.catch(err => console.log(err))
-
-		/*	.then(result => {
+/*
+			.then(result => {
 				console.log(`${nt()} : アクセストークン取得成功`)
 				console.log(result)
 				// アクセストークンの取得
