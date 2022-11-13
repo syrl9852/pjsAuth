@@ -147,7 +147,7 @@ server.get("/auth", async function(req, res, codea) {
 	}
 });
 
-server.listen('3000', () => {
+server.listen('8080', () => {
 	console.log('Application started');
 });
 
